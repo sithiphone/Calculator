@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/edt01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textDirection="rtl"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btn7"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"
+        android:text="7"
+        android:onClick="onClickButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn8"
+        android:layout_marginTop="80dp"
+        android:text="8"
+        android:onClick="onClickButton8"
+        android:textSize="25sp"
+        android:layout_marginLeft="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn9"
+        android:layout_marginTop="80dp"
+        android:text="9"
+        android:textSize="25sp"
+        android:onClick="onClickButton9"
+        android:layout_marginLeft="210dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_marginTop="80dp"
+        android:text="+"
+        android:textSize="25sp"
+        android:onClick="onClickButtonPlus"
+        android:layout_marginLeft="310dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_marginTop="130dp"
+        android:text="4"
+        android:textSize="25sp"
+        android:onClick="onClickButton4"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_marginTop="130dp"
+        android:text="5"
+        android:onClick="onClickButton5"
+        android:textSize="25sp"
+        android:layout_marginLeft="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_marginTop="130dp"
+        android:text="6"
+        android:textSize="25sp"
+        android:layout_marginLeft="210dp"
+        android:onClick="onClickButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnMinus"
+        android:layout_marginTop="130dp"
+        android:text="-"
+        android:onClick="onClickButtonMinus"
+        android:textSize="25sp"
+        android:layout_marginLeft="310dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginTop="180dp"
+        android:text="1"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:onClick="onClickButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_marginTop="180dp"
+        android:text="2"
+        android:textSize="25sp"
+        android:layout_marginLeft="110dp"
+        android:onClick="onClickButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_marginTop="180dp"
+        android:text="3"
+        android:textSize="25sp"
+        android:onClick="onClickButton3"
+        android:layout_marginLeft="210dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnMul"
+        android:layout_marginTop="180dp"
+        android:text="x"
+        android:textSize="25sp"
+        android:onClick="onClickButtonMul"
+        android:layout_marginLeft="310dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn0"
+        android:layout_marginTop="230dp"
+        android:text="0"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:onClick="onClickButton0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="25sp"
+        android:text="C"
+        android:onClick="onClickButtonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnEqual"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="210dp"
+        android:textSize="25sp"
+        android:text="="
+        android:onClick="onClickEqual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="310dp"
+        android:textSize="25sp"
+        android:onClick="onClickButtonDiv"
+        android:text="%"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="ຕຢ. ໂດຍ: ອຈ. ສິດທິພອນ ພັນດາລາ"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/btnDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
