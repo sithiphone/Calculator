@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private int number1, number2;
     private float result;
     private String oper;
-    private String currentNumber = "0";
+    private String currentNumber = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,27 +64,27 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onClickButtonPlus(View view){
         number1 = Integer.parseInt(currentNumber);
-        currentNumber = "0";
+        currentNumber = "";
         oper = "+";
         edtBox.setText("");
     }
 
     public void onClickButtonMinus(View view){
         number1 = Integer.parseInt(currentNumber);
-        currentNumber = "0";
+        currentNumber = "";
         oper = "-";
         edtBox.setText("");
     }
 
     public void onClickButtonMul(View view){
         number1 = Integer.parseInt(currentNumber);
-        currentNumber = "0";
+        currentNumber = "";
         oper = "x";
         edtBox.setText("");
     }
     public void onClickButtonDiv(View view){
         number1 = Integer.parseInt(currentNumber);
-        currentNumber = "0";
+        currentNumber = "";
         oper = "/";
         edtBox.setText("");
     }
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         edtBox.setText("");
         number1 = 0;
         number2 = 0;
-        currentNumber = "0";
+        currentNumber = "";
         oper = "";
         result = 0;
     }
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
         }
         number1 = 0;
         number2 = 0;
-        currentNumber = "0";
+        currentNumber = "";
         result = 0;
     }
 }
